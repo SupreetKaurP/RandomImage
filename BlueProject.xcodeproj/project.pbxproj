@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EC197351E785AB00091E05A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC197341E785AB00091E05A /* main.m */; };
+		3EC197381E785AB00091E05A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC197371E785AB00091E05A /* AppDelegate.m */; };
+		3EC1973B1E785AB00091E05A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC1973A1E785AB00091E05A /* ViewController.m */; };
+		3EC1973E1E785AB00091E05A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC1973C1E785AB00091E05A /* Main.storyboard */; };
+		3EC197401E785AB00091E05A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC1973F1E785AB00091E05A /* Assets.xcassets */; };
+		3EC197431E785AB00091E05A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC197411E785AB00091E05A /* LaunchScreen.storyboard */; };
+		3EC1974E1E785AB00091E05A /* BlueProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC1974D1E785AB00091E05A /* BlueProjectTests.m */; };
+		3EC197591E785AB00091E05A /* BlueProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC197581E785AB00091E05A /* BlueProjectUITests.m */; };
+		3EC197681E787D950091E05A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC197671E787D950091E05A /* SecondViewController.m */; };
+		3EC1976C1E78AAAA0091E05A /* hello.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3EC1976B1E78AAAA0091E05A /* hello.jpg */; };
+		3EC1976F1E78AE3D0091E05A /* back2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EC1976D1E78AE3D0091E05A /* back2.png */; };
+		3EC197701E78AE3D0091E05A /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3EC1976E1E78AE3D0091E05A /* back.jpg */; };
+		3EC197721E78AEF50091E05A /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3EC197711E78AEF50091E05A /* background.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EC1974A1E785AB00091E05A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EC197281E785AB00091E05A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EC1972F1E785AB00091E05A;
+			remoteInfo = BlueProject;
+		};
+		3EC197551E785AB00091E05A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EC197281E785AB00091E05A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EC1972F1E785AB00091E05A;
+			remoteInfo = BlueProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EC197301E785AB00091E05A /* BlueProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC197341E785AB00091E05A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EC197361E785AB00091E05A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3EC197371E785AB00091E05A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3EC197391E785AB00091E05A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3EC1973A1E785AB00091E05A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3EC1973D1E785AB00091E05A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EC1973F1E785AB00091E05A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EC197421E785AB00091E05A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EC197441E785AB00091E05A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EC197491E785AB00091E05A /* BlueProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC1974D1E785AB00091E05A /* BlueProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueProjectTests.m; sourceTree = "<group>"; };
+		3EC1974F1E785AB00091E05A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EC197541E785AB00091E05A /* BlueProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC197581E785AB00091E05A /* BlueProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueProjectUITests.m; sourceTree = "<group>"; };
+		3EC1975A1E785AB00091E05A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EC197661E787D950091E05A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3EC197671E787D950091E05A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3EC1976B1E78AAAA0091E05A /* hello.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hello.jpg; sourceTree = "<group>"; };
+		3EC1976D1E78AE3D0091E05A /* back2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back2.png; sourceTree = "<group>"; };
+		3EC1976E1E78AE3D0091E05A /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		3EC197711E78AEF50091E05A /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EC1972D1E785AB00091E05A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC197461E785AB00091E05A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC197511E785AB00091E05A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EC197271E785AB00091E05A = {
+			isa = PBXGroup;
+			children = (
+				3EC197321E785AB00091E05A /* BlueProject */,
+				3EC1974C1E785AB00091E05A /* BlueProjectTests */,
+				3EC197571E785AB00091E05A /* BlueProjectUITests */,
+				3EC197311E785AB00091E05A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EC197311E785AB00091E05A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EC197301E785AB00091E05A /* BlueProject.app */,
+				3EC197491E785AB00091E05A /* BlueProjectTests.xctest */,
+				3EC197541E785AB00091E05A /* BlueProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EC197321E785AB00091E05A /* BlueProject */ = {
+			isa = PBXGroup;
+			children = (
+				3EC197361E785AB00091E05A /* AppDelegate.h */,
+				3EC197371E785AB00091E05A /* AppDelegate.m */,
+				3EC1976B1E78AAAA0091E05A /* hello.jpg */,
+				3EC197391E785AB00091E05A /* ViewController.h */,
+				3EC1973A1E785AB00091E05A /* ViewController.m */,
+				3EC197711E78AEF50091E05A /* background.jpg */,
+				3EC1973C1E785AB00091E05A /* Main.storyboard */,
+				3EC1973F1E785AB00091E05A /* Assets.xcassets */,
+				3EC1976D1E78AE3D0091E05A /* back2.png */,
+				3EC1976E1E78AE3D0091E05A /* back.jpg */,
+				3EC197411E785AB00091E05A /* LaunchScreen.storyboard */,
+				3EC197441E785AB00091E05A /* Info.plist */,
+				3EC197331E785AB00091E05A /* Supporting Files */,
+				3EC197661E787D950091E05A /* SecondViewController.h */,
+				3EC197671E787D950091E05A /* SecondViewController.m */,
+			);
+			path = BlueProject;
+			sourceTree = "<group>";
+		};
+		3EC197331E785AB00091E05A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EC197341E785AB00091E05A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EC1974C1E785AB00091E05A /* BlueProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EC1974D1E785AB00091E05A /* BlueProjectTests.m */,
+				3EC1974F1E785AB00091E05A /* Info.plist */,
+			);
+			path = BlueProjectTests;
+			sourceTree = "<group>";
+		};
+		3EC197571E785AB00091E05A /* BlueProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EC197581E785AB00091E05A /* BlueProjectUITests.m */,
+				3EC1975A1E785AB00091E05A /* Info.plist */,
+			);
+			path = BlueProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EC1972F1E785AB00091E05A /* BlueProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EC1975D1E785AB00091E05A /* Build configuration list for PBXNativeTarget "BlueProject" */;
+			buildPhases = (
+				3EC1972C1E785AB00091E05A /* Sources */,
+				3EC1972D1E785AB00091E05A /* Frameworks */,
+				3EC1972E1E785AB00091E05A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueProject;
+			productName = BlueProject;
+			productReference = 3EC197301E785AB00091E05A /* BlueProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EC197481E785AB00091E05A /* BlueProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EC197601E785AB00091E05A /* Build configuration list for PBXNativeTarget "BlueProjectTests" */;
+			buildPhases = (
+				3EC197451E785AB00091E05A /* Sources */,
+				3EC197461E785AB00091E05A /* Frameworks */,
+				3EC197471E785AB00091E05A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EC1974B1E785AB00091E05A /* PBXTargetDependency */,
+			);
+			name = BlueProjectTests;
+			productName = BlueProjectTests;
+			productReference = 3EC197491E785AB00091E05A /* BlueProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EC197531E785AB00091E05A /* BlueProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EC197631E785AB00091E05A /* Build configuration list for PBXNativeTarget "BlueProjectUITests" */;
+			buildPhases = (
+				3EC197501E785AB00091E05A /* Sources */,
+				3EC197511E785AB00091E05A /* Frameworks */,
+				3EC197521E785AB00091E05A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EC197561E785AB00091E05A /* PBXTargetDependency */,
+			);
+			name = BlueProjectUITests;
+			productName = BlueProjectUITests;
+			productReference = 3EC197541E785AB00091E05A /* BlueProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EC197281E785AB00091E05A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "supreet kaur";
+				TargetAttributes = {
+					3EC1972F1E785AB00091E05A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					3EC197481E785AB00091E05A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3EC1972F1E785AB00091E05A;
+					};
+					3EC197531E785AB00091E05A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3EC1972F1E785AB00091E05A;
+					};
+				};
+			};
+			buildConfigurationList = 3EC1972B1E785AB00091E05A /* Build configuration list for PBXProject "BlueProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EC197271E785AB00091E05A;
+			productRefGroup = 3EC197311E785AB00091E05A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EC1972F1E785AB00091E05A /* BlueProject */,
+				3EC197481E785AB00091E05A /* BlueProjectTests */,
+				3EC197531E785AB00091E05A /* BlueProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EC1972E1E785AB00091E05A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC1976C1E78AAAA0091E05A /* hello.jpg in Resources */,
+				3EC197431E785AB00091E05A /* LaunchScreen.storyboard in Resources */,
+				3EC197721E78AEF50091E05A /* background.jpg in Resources */,
+				3EC197401E785AB00091E05A /* Assets.xcassets in Resources */,
+				3EC1973E1E785AB00091E05A /* Main.storyboard in Resources */,
+				3EC197701E78AE3D0091E05A /* back.jpg in Resources */,
+				3EC1976F1E78AE3D0091E05A /* back2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC197471E785AB00091E05A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC197521E785AB00091E05A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EC1972C1E785AB00091E05A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC197681E787D950091E05A /* SecondViewController.m in Sources */,
+				3EC1973B1E785AB00091E05A /* ViewController.m in Sources */,
+				3EC197381E785AB00091E05A /* AppDelegate.m in Sources */,
+				3EC197351E785AB00091E05A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC197451E785AB00091E05A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC1974E1E785AB00091E05A /* BlueProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EC197501E785AB00091E05A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC197591E785AB00091E05A /* BlueProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EC1974B1E785AB00091E05A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EC1972F1E785AB00091E05A /* BlueProject */;
+			targetProxy = 3EC1974A1E785AB00091E05A /* PBXContainerItemProxy */;
+		};
+		3EC197561E785AB00091E05A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EC1972F1E785AB00091E05A /* BlueProject */;
+			targetProxy = 3EC197551E785AB00091E05A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EC1973C1E785AB00091E05A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EC1973D1E785AB00091E05A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EC197411E785AB00091E05A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EC197421E785AB00091E05A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EC1975B1E785AB00091E05A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3EC1975C1E785AB00091E05A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EC1975E1E785AB00091E05A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlueProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lambton.BlueProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3EC1975F1E785AB00091E05A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlueProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lambton.BlueProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3EC197611E785AB00091E05A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlueProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lambton.BlueProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueProject.app/BlueProject";
+			};
+			name = Debug;
+		};
+		3EC197621E785AB00091E05A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlueProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lambton.BlueProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueProject.app/BlueProject";
+			};
+			name = Release;
+		};
+		3EC197641E785AB00091E05A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlueProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lambton.BlueProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlueProject;
+			};
+			name = Debug;
+		};
+		3EC197651E785AB00091E05A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlueProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lambton.BlueProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlueProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EC1972B1E785AB00091E05A /* Build configuration list for PBXProject "BlueProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EC1975B1E785AB00091E05A /* Debug */,
+				3EC1975C1E785AB00091E05A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EC1975D1E785AB00091E05A /* Build configuration list for PBXNativeTarget "BlueProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EC1975E1E785AB00091E05A /* Debug */,
+				3EC1975F1E785AB00091E05A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3EC197601E785AB00091E05A /* Build configuration list for PBXNativeTarget "BlueProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EC197611E785AB00091E05A /* Debug */,
+				3EC197621E785AB00091E05A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3EC197631E785AB00091E05A /* Build configuration list for PBXNativeTarget "BlueProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EC197641E785AB00091E05A /* Debug */,
+				3EC197651E785AB00091E05A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EC197281E785AB00091E05A /* Project object */;
+}
